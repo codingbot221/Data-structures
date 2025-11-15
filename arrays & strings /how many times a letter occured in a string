@@ -1,0 +1,10 @@
+def count_letter(s,ch):
+   count=0
+   for i in s:
+     if i==ch:
+       count+=1
+   return count
+
+
+tc - o(n) loops every character
+sc - o(1)
