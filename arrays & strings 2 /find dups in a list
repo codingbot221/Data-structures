@@ -1,0 +1,1 @@
+duplicates = list({x for x in nums if nums.count(x) > 1})
