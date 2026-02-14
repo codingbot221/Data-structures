@@ -1,0 +1,6 @@
+mylist = [10, 5, 20, 5, 15, 20]
+
+max_p = mylist.index(max(mylist))
+min_p = mylist.index(min(mylist))
+
+print(f"Max: {max(mylist)} at {max_p}, Min: {min(mylist)} at {min_p}")
